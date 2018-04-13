@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="50dp"
+    android:layout_margin="@dimen/dp_10"
+    android:paddingTop="50dp">
+    <View
+        android:id="@+id/view0"
+        android:layout_width="7dp"
+        android:background="@android:color/transparent"
+        android:layout_height="1dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="45dp"
+        android:password="true"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom2"
+        android:imeOptions="actionNone"
+        android:digits="0123456789"
+        android:maxLength="1"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:textSize="20sp" />
+    <View
+        android:id="@+id/view1"
+        android:layout_width="7dp"
+        android:background="@android:color/transparent"
+        android:layout_height="1dp"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:password="true"
+        android:digits="0123456789"
+        android:background="@drawable/custom2"
+        android:imeOptions="actionNone"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textSize="20sp" />
+    <View
+        android:id="@+id/view2"
+        android:layout_width="7dp"
+        android:background="@android:color/transparent"
+        android:layout_height="1dp"
+        />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="45dp"
+        android:password="true"
+
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/custom2"
+        android:digits="0123456789"
+        android:imeOptions="actionNone"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textSize="20sp" />
+    <View
+        android:id="@+id/view3"
+        android:layout_width="7dp"
+        android:background="@android:color/transparent"
+        android:layout_height="1dp"
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:password="true"
+
+        android:background="@drawable/custom2"
+        android:digits="0123456789"
+        android:imeOptions="actionNone"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textSize="20sp" />
+    <View
+        android:id="@+id/view4"
+        android:layout_width="7dp"
+        android:background="@android:color/transparent"
+        android:layout_height="1dp"
+        />
+
+</LinearLayout>

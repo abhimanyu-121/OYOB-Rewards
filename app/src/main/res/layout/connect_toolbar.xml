@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:text="@string/navigation_drawer_connect"
+        android:textSize="26dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+</LinearLayout>

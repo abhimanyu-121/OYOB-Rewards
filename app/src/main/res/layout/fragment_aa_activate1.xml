@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/faaa1_acet_first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="16"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:hint="@string/first_name"
+                android:imeActionLabel="Next"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/txt_dark_blue"
+                android:textColorHint="@color/txt_light_grey"
+                app:backgroundTint="@color/txt_light_grey" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/faaa1_acet_last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="16"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:hint="@string/last_name"
+                android:imeActionLabel="Next"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/txt_dark_blue"
+                android:textColorHint="@color/txt_light_grey"
+                app:backgroundTint="@color/txt_light_grey" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/faaa1_acet_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="16"
+                android:focusable="false"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:longClickable="false"
+                android:hint="@string/date_of_birth"
+                android:imeActionLabel="Next"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/txt_dark_blue"
+                android:textColorHint="@color/txt_light_grey"
+                app:backgroundTint="@color/txt_light_grey" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/interested_in"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/faaa1_cb_travel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:button="@drawable/bg_checkbox_travel"
+                        android:fontFamily="@font/roboto_light"
+                        android:textColor="@color/txt_light_grey" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/faaa1_cb_food"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:button="@drawable/bg_checkbox_food"
+                        android:fontFamily="@font/roboto_light"
+                        android:textColor="@color/txt_light_grey" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/faaa1_cb_health"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:button="@drawable/bg_checkbox_health"
+                        android:fontFamily="@font/roboto_light"
+                        android:textColor="@color/txt_light_grey" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/faaa1_cb_shopping"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:button="@drawable/bg_checkbox_shopping"
+                        android:fontFamily="@font/roboto_light"
+                        android:textColor="@color/txt_light_grey" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/faaa1_cb_entertainment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:button="@drawable/bg_checkbox_entertainment"
+                        android:fontFamily="@font/roboto_light"
+                        android:textColor="@color/txt_light_grey" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/faaa1_cb_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:button="@drawable/bg_checkbox_home"
+                        android:fontFamily="@font/roboto_light"
+                        android:textColor="@color/txt_light_grey" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/txt_light_grey" />
+
+            <CheckBox
+                android:id="@+id/faaa1_cb_newsletter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginTop="20dp"
+                android:button="@drawable/bg_checkbox_radio_btn"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dimen_4dp"
+                android:text="@string/i_d_like_to_receive_e_newsletters"
+                android:textColor="@color/txt_light_grey" />
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/faaa1_actv_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_button_blue"
+        android:clickable="true"
+        android:ems="8"
+        android:focusable="true"
+        android:fontFamily="@font/avenir_roman"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/next"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/white" />
+</LinearLayout>

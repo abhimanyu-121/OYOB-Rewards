@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_popular"
+            android:icon="@drawable/popular_offers"
+            android:title="@string/popular_offers" />
+
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/categories"
+            android:title="@string/categories" />
+
+        <item
+            android:id="@+id/nav_explore"
+            android:icon="@drawable/explore"
+            android:title="@string/around_me"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/fav_icon"
+            android:title="@string/navigation_drawer_favourite" />
+
+        <item
+            android:id="@+id/nav_myshop"
+            android:icon="@drawable/myshop"
+            app:actionViewClass="android.widget.TextView"
+            android:title="@string/myshop" />
+
+        <item
+            android:id="@+id/nav_mycard"
+            android:icon="@drawable/mycard"
+            android:title="@string/my_card" />
+
+        <item
+            android:id="@+id/nav_mynotification"
+            android:icon="@drawable/mynotifications"
+            android:title="@string/my_notifications"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="@string/navigation_drawer_about" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact_icon"
+            android:title="@string/navigation_drawer_contact" />
+        <item
+            android:id="@+id/nav_exclusives"
+            android:icon="@drawable/exclusive_icon"
+            android:title="@string/navigation_drawer_exclusives"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/connect_icon"
+            android:title="@string/navigation_drawer_connect"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/friends_icon"
+            android:title="@string/navigation_drawer_friends"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/log_out"
+            android:visible="true" />
+    </group>
+</menu>

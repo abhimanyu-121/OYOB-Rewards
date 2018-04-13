@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "130994737171",
+    "firebase_url": "https://oyob-5a399.firebaseio.com",
+    "project_id": "oyob-5a399",
+    "storage_bucket": "oyob-5a399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130994737171:android:2d6873a3aef155bd",
+        "android_client_info": {
+          "package_name": "com.oyob.controller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130994737171-0j2qkbtq4734vbu2ovu5pj672m1js4up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOQw3EbpbofvIEwYSDWnMEXN0BTAW3GR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

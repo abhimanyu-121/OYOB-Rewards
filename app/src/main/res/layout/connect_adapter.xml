@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="2dp"
+    card_view:cardCornerRadius="2dp">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/rea_tv_merchant_name"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:background="#80000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/favourite"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/rea_tv_merchant_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:minLines="2"
+            android:lines="2"
+            android:singleLine="false"
+            android:orientation="vertical"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/fav_icon_connect"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:visibility="visible" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/relativeLayout"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            card_view:cardCornerRadius="2dp"
+            android:layout_height="80dp"
+            android:background="@android:color/white">
+            <!--            card_view:cardBackgroundColor="#80FFFFFF"-->
+            <TextView
+                android:id="@+id/text_subline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@+id/layout"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:text="" />
+
+            <RelativeLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/rea_tv_get_now"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+

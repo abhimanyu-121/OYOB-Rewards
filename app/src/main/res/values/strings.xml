@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">OYOB Rewards</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="navigation_drawer_about">About</string>
+    <string name="navigation_drawer_exclusives">Exclusive Offers</string>
+    <string name="navigation_drawer_connect">Connect Offers</string>
+    <string name="navigation_drawer_friends">Friends</string>
+    <string name="navigation_drawer_contact">Contact</string>
+    <string name="navigation_drawer_card">Card</string>
+    <string name="navigation_drawer_favourite">Favourites</string>
+    <string name="navigation_drawer_gift">Gift</string>
+
+    <string name="it_seems_you_are_not_registerd">It seems you are not registered with us</string>
+
+    <string name="failed_to_get_data_from_server">failed to get data from server</string>
+
+
+    <string name="wrong_credentials_login">Seems like you have entered wrong credentials or not registered</string>
+
+    <string name="activate">Activate</string>
+    <string name="next">Next</string>
+    <string name="insert_your_temporary_pin">Insert Your Temporary Pin</string>
+    <string name="insert_your_pin">Insert Your PIN</string>
+    <string name="confirm_your_pin">Confirm Your PIN</string>
+    <string name="forgotten_your_pin">Forgotten Your PIN?</string>
+    <string name="login">Login</string>
+
+
+    <string name="about">About</string>
+
+    <string name="contact">Call us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="email">Email</string>
+    <string name="hours">Hours</string>
+    <string name="time">9am to 5pm AEST</string>
+    <string name="day">Monday-Friday</string>
+    <string name="number">1300 368 846</string>
+    <string name="mailaddress">info@myrewards.com.au</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_maps2">Map</string>
+
+    <string name="GPSsettings">GPS settings</string>
+    <string name="GPSsettingsmessage">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="Settings">Settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="categories">Categories</string>
+    <string name="popular_offers">Popular Offers</string>
+    <string name="around_me">Around Me</string>
+    <string name="my_notifications">My Notifications</string>
+    <string name="myshop">My Cart</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="enter_details">Enter card details</string>
+    <string name="content_description">Image</string>
+    <string name="my_card">My Card</string>
+    <string name="find_out_more">Find out more</string>
+    <string name="please_enter_your_email_for_payment">Please enter your email for payment</string>
+    <string name="email_mandatory">Email *</string>
+    <string name="select_your_payment_option">Select your payment option</string>
+    <string name="place_order">Place Order</string>
+    <string name="offers_not_found">Offers Not Found!!!</string>
+    <string name="no_popular_offers">No Popular Offers</string>
+    <string name="check_internet_connectivity">Check your internet connectivity</string>
+    <string name="first_name">First name *</string>
+    <string name="last_name">Last name *</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="interested_in">Interested in</string>
+    <string name="i_d_like_to_receive_e_newsletters">I\'d like to receive e-newsletters</string>
+    <string name="country">Country</string>
+    <string name="state">State *</string>
+    <string name="postcode">Postcode *</string>
+    <string name="mobile">Mobile</string>
+    <string name="web_address">Web Address *</string>
+    <string name="membership_number_mandatory">Membership Number *</string>
+    <string name="membership_number">Membership Number</string>
+    <string name="password">Password *</string>
+    <string name="please_check_url">Please check URL</string>
+    <string name="membership_number_should_be_6">Membership number cannot be empty</string>
+    <string name="first_name_validation">First name must be 3 characters or more</string>
+    <string name="last_name_validation">Last name must be 3 characters or more</string>
+    <string name="state_cannot_be_empty">State cannot be empty</string>
+    <string name="invalid_email_address">Invalid email address</string>
+    <string name="no_offers">No offers!</string>
+    <string name="don_t_have_a_pin_create_your_pin">Don\'t have a PIN? Create your PIN</string>
+    <string name="agree_terms_and_conditions"><![CDATA[Please agree to terms & conditions]]></string>
+    <string name="loading">Loading..</string>
+    <string name="new_password">New Password *</string>
+    <string name="new_password_validation">New password cannot be empty</string>
+    <string name="pin_setup">PIN Setup</string>
+    <string name="failed_to_save_data">Failed to save data</string>
+    <string name="failed_to_get_server_Response">Failed to get server response</string>
+    <string name="not_products_available">Products not available near by your location</string>
+    <string name="redeem">Redeem</string>
+    <string name="favorite">Favorite</string>
+    <string name="i_m">I\'m agree to <u>Terms &amp; Conditions</u></string>
+    <string name="tt">Terms &amp; Conditions</string>
+    <string name="my_shop_terms"><u>My Shop terms and conditions</u></string>
+    <string name="communicating_with_you_by_email">Communicating with you by email</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_by_keyword">Search By Keyword</string>
+    <string name="help">HELP</string>
+</resources>

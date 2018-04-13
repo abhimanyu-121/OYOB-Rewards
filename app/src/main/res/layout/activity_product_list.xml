@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:id="@+id/search_area"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/edittext_product_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.90"
+            android:background="@drawable/border_gray"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:drawableTint="#a3a2a2"
+            android:hint="Search By Keyword"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/txt_category_product_cancel_search"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.10"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="#a3a2a2"
+            android:textSize="18sp"
+            android:tint="@color/colorAccent" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/card_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>

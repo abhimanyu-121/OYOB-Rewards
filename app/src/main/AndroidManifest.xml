@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oyob.controller">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".Analytics.FirebaseAnalyticsClass"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/app_icon_new"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/app_icon_new"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:windowSoftInputMode="adjustPan">
+        <activity
+            android:name="com.oyob.controller.activity.SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GenerateTempPinActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".activity.MainScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.ActivityActivate"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".activity.ActivityLogin"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".activity.ActivityDashboard"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name=".activity.ConnectActivity"
+            android:label="@string/navigation_drawer_connect"
+            android:parentActivityName=".activity.ActivityDashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="activity.ActivityDashboard" />
+        </activity>
+        <activity
+            android:name=".activity.FriendsActivity"
+            android:label="@string/navigation_drawer_friends"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.OfferListActivity"
+            android:label="@string/navigation_drawer_exclusives"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.OfferDetailActivity"
+            android:label="@string/navigation_drawer_exclusives"
+            android:parentActivityName=".activity.ActivityDashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="activity.ActivityDashboard" />
+        </activity>
+        <activity
+            android:name=".activity.FavouriteActivity"
+            android:label="@string/navigation_drawer_favourite"
+            android:parentActivityName=".activity.ActivityDashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="activity.ActivityDashboard" />
+        </activity>
+        <activity
+            android:name=".activity.GiftActivity"
+            android:label="@string/navigation_drawer_gift"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ContactActivity"
+            android:label="@string/navigation_drawer_contact"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.New" />
+        <activity
+            android:name=".activity.CardActivity"
+            android:label="@string/navigation_drawer_card"
+            android:parentActivityName=".activity.ActivityDashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.ActivityDashboard" />
+        </activity>
+        <activity
+            android:name=".activity.ChildConnectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PagerActivity"
+            android:label="@string/navigation_drawer_exclusives"
+            android:parentActivityName=".activity.ActivityDashboard"
+            android:theme="@style/AppTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="activity.ActivityDashboard" />
+        </activity>
+        <activity
+            android:name=".activity.VourcherWebviewActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activity.Maps2Activity"
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".paypal.PaypalPayment"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.PopularOfferWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".stripe.StripePaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ActivityCreatePIN"
+            android:label="@string/pin_setup"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ActivityTermsandConditions"
+            android:label="@string/tt"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.peberry.user.widget.RewardRowView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="199dp"
+    android:layout_weight="1"
+    android:background="@color/white">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="199dp" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@null"
+        android:padding="2dp"/>
+     <!--   app:fillColor="@color/colorPrimary"
+        app:pageColor="@color/white"
+        app:radius="3dp"
+        app:strokeColor="@color/white"--> />
+
+    <com.peberry.user.widget.PETextViewMukta
+        android:id="@+id/shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/reward_type"
+        android:textSize="18dp" />
+
+    <com.peberry.user.widget.PETextViewMukta
+        android:id="@+id/reward_type"
+        android:layout_width="61.6dp"
+        android:layout_height="18dp"
+        android:layout_above="@+id/reward_details"
+        android:layout_alignParentRight="true"
+        android:textSize="11dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/shape_white_round_rect_bg"
+        android:gravity="center"
+        android:text="BRAND"
+         />
+
+
+    <RelativeLayout
+        android:id="@+id/reward_details"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/shop_name"
+        android:layout_marginLeft="15.68dp"
+        android:layout_marginRight="15.58dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/shape_points_bg"
+        android:padding="5dp">
+
+        <com.peberry.user.widget.PETextViewMuktaLight
+            android:id="@+id/brand_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/reward_text_color"
+            android:textSize="20dp" />
+
+        <com.peberry.user.widget.PETextViewMuktaLight
+            android:id="@+id/brand_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/brand_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:maxLines="1"
+            android:textColor="@color/reward_text_color"
+            android:textSize="15dp" />
+
+        <View
+            android:id="@+id/reward_details_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/brand_desc"
+            android:background="@color/profile_following"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/offer_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reward_details_divider"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" />
+
+    </RelativeLayout>
+
+</com.peberry.user.widget.RewardRowView>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.markomilos:paginate-0.5.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/paginate-0.5.1.aar/0f5cc2fa82fa0c7ddc04d4922a302b36/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/paginate-0.5.1.aar/0f5cc2fa82fa0c7ddc04d4922a302b36/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.markomilos/paginate/0.5.1/dd9381fc81126552196752c9529b67abee425d5a/paginate-0.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

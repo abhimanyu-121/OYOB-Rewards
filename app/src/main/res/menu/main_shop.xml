@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_myshop"
+        android:icon="@drawable/myshop"
+        android:menuCategory="secondary"
+        android:orderInCategory="100"
+        android:title="@string/myshop"
+        app:actionLayout="@layout/cart_notification_count"
+        app:showAsAction="always" />
+</menu>

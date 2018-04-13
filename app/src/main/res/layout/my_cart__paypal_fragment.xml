@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="false">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_pager_change_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:id="@+id/first_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/content_description"
+                android:src="@drawable/paypal"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="@string/please_enter_your_email_for_payment" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:hint="@string/email_mandatory"
+                android:imeActionLabel="Next"
+                android:imeOptions="actionNext"
+                android:inputType="textWebEmailAddress"
+                android:maxLines="1"
+                android:textColor="@color/txt_dark_blue" />
+
+            <LinearLayout
+                android:id="@+id/linear_paymentinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/payment_screen_spacing"
+                    android:text="@string/enter_details"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/payment_source"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enter_details"
+                    android:textAppearance="@android:style/TextAppearance.Large" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_select_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_button_blue"
+                android:fontFamily="@font/avenir_roman"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:text="@string/select_your_payment_option"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_place_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/bg_button_blue"
+            android:enabled="false"
+            android:fontFamily="@font/avenir_roman"
+            android:paddingBottom="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="5dp"
+            android:text="@string/place_order"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="acc_label_card_number">カード番号</string>
+    <string name="acc_label_expiry_date">有効期限</string>
+    <string name="acc_label_zip">郵便番号</string>
+    <string name="address_city_required">市区町村を入力してください</string>
+    <string name="address_county_required">国を入力してください</string>
+    <string name="address_label_address">住所</string>
+    <string name="address_label_address_line1">住所 (1 行目)</string>
+    <string name="address_label_address_line1_optional">住所 (1 行目、省略可)</string>
+    <string name="address_label_address_line2_optional">住所 (2 行目、省略可)</string>
+    <string name="address_label_address_optional">住所 (省略可)</string>
+    <string name="address_label_apt_optional">アパート / マンション名など (省略可)</string>
+    <string name="address_label_city">市区町村</string>
+    <string name="address_label_city_optional">市区町村 (省略可)</string>
+    <string name="address_label_country">国</string>
+    <string name="address_label_county">群</string>
+    <string name="address_label_county_optional">群 (省略可)</string>
+    <string name="address_label_name">名称</string>
+    <string name="address_label_phone_number">電話番号</string>
+    <string name="address_label_phone_number_optional">電話番号 (省略可)</string>
+    <string name="address_label_postal_code">郵便番号</string>
+    <string name="address_label_postal_code_optional">郵便番号 (省略可)</string>
+    <string name="address_label_postcode">郵便番号</string>
+    <string name="address_label_postcode_optional">郵便番号 (省略可)</string>
+    <string name="address_label_province">都道府県</string>
+    <string name="address_label_province_optional">都道府県 (省略可)</string>
+    <string name="address_label_region_generic">都道府県</string>
+    <string name="address_label_region_generic_optional">都道府県 (省略可)</string>
+    <string name="address_label_state">都道府県</string>
+    <string name="address_label_state_optional">都道府県 (省略可)</string>
+    <string name="address_label_zip_code">郵便番号</string>
+    <string name="address_label_zip_code_optional">郵便番号 (省略可)</string>
+    <string name="address_label_zip_postal_code">郵便番号</string>
+    <string name="address_label_zip_postal_code_optional">郵便番号 (省略可)</string>
+    <string name="address_name_required">名前を入力してください</string>
+    <string name="address_phone_number_required">電話番号を入力してください</string>
+    <string name="address_postal_code_invalid">郵便番号が無効です</string>
+    <string name="address_postcode_invalid">郵便番号が無効です</string>
+    <string name="address_province_required">都道府県を入力してください</string>
+    <string name="address_region_generic_required">都道府県を入力してください</string>
+    <string name="address_required">住所を入力してください</string>
+    <string name="address_state_required">都道府県を入力してください</string>
+    <string name="address_zip_invalid">郵便番号が無効です。</string>
+    <string name="address_zip_postal_invalid">郵便番号が無効です</string>
+    <string name="expiry_date_hint">MM/YY</string>
+    <string name="expiry_label_short">有効期限</string>
+    <string name="invalid_card_number">カードの番号が無効です。</string>
+    <string name="invalid_cvc">指定したカードのセキュリティコードが無効です。</string>
+    <string name="invalid_expiry_year">カードの有効期限として指定した年が無効です。</string>
+    <string name="invalid_shipping_information">配送先住所エラー</string>
+    <string name="invalid_zip">指定した郵便番号が未入力です。</string>
+    <string name="payment_method_add_new_card">新しいカードを追加…</string>
+    <string name="price_free">無料</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="title_add_a_card">カードを追加</string>
+    <string name="title_add_an_address">住所を設定してください</string>
+    <string name="title_payment_method">お支払い方法</string>
+    <string name="title_select_shipping_method">配送方法を選択してください</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/faaa0_acet_web_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="16"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:hint="@string/web_address"
+                android:imeActionLabel="Next"
+                android:imeOptions="actionNext"
+                android:inputType="textWebEditText"
+                android:maxLines="1"
+                android:visibility="gone"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/txt_dark_blue"
+                android:textColorHint="@color/txt_light_grey"
+                app:backgroundTint="@color/txt_light_grey" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/faaa0_acet_membership_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="16"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:hint="@string/membership_number_mandatory"
+                android:imeActionLabel="Next"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/txt_dark_blue"
+                android:textColorHint="@color/txt_light_grey"
+                app:backgroundTint="@color/txt_light_grey" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/faaa0_acet_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="16"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:imeActionLabel="Next"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/txt_dark_blue"
+                android:textColorHint="@color/txt_light_grey"
+                app:backgroundTint="@color/txt_light_grey" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/faaa0_acet_new_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="16"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:hint="Confirm Password *"
+                android:imeActionLabel="Next"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/txt_dark_blue"
+                android:textColorHint="@color/txt_light_grey"
+                app:backgroundTint="@color/txt_light_grey" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/faaa0_actv_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button_blue"
+            android:clickable="true"
+            android:ems="8"
+            android:focusable="true"
+            android:fontFamily="@font/avenir_roman"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/next"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</ScrollView>

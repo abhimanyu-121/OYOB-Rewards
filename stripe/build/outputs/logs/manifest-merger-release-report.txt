@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:3:11-39
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:5:11-38
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:4:11-35
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+application
+ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:8:5-28:19
+activity#com.stripe.android.view.AddSourceActivity
+ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:9:9-15:20
+	android:windowSoftInputMode
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:12:13-55
+	android:theme
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:11:13-54
+	android:name
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:10:13-51
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:17:9-21:20
+	android:theme
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:19:13-54
+	android:name
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:18:13-56
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:23:9-27:20
+	android:theme
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:25:13-54
+	android:name
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml:24:13-53
+uses-sdk
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+		ADDED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml
+		INJECTED from E:\new_bit_bucket\OYOB_new\stripe\AndroidManifest.xml

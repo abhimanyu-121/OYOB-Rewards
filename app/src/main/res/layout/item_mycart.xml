@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_5"
+    android:layout_marginLeft="@dimen/dp_5"
+    android:layout_marginRight="5dp"
+    android:background="@color/white"
+    android:elevation="5dp"
+    app:contentPaddingBottom="@dimen/dp_5"
+    app:contentPaddingLeft="@dimen/dp_5"
+    app:contentPaddingRight="@dimen/dp_5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/btn_remove"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/content_description"
+            android:paddingRight="20dp"
+            android:src="@drawable/delete_2x"
+            android:tint="#bcbaba" />
+
+        <TextView
+            android:id="@+id/txt_category"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_toStartOf="@+id/raw"
+            android:fontFamily="@font/roboto_medium"
+            android:singleLine="true"
+            android:text="Phisical Gift Card"
+            android:textColor="#000"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/raw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/btn_remove"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/dp_10">
+
+            <ImageView
+                android:id="@+id/btn_minus"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="8dp"
+                android:src="@drawable/minus" />
+
+            <TextView
+                android:id="@+id/txt_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"
+                android:text="1"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/btn_plus"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="8dp"
+                android:src="@drawable/plus" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/raw"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_item_cart"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="2dp"
+                android:singleLine="true"
+                android:text="Product"
+                android:textColor="@color/txt_dark_blue"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/roboto_medium"
+                android:padding="2dp"
+                android:text="0$"
+                android:textColor="@color/txt_dark_blue"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_name"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="@color/txt_light_grey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/warehouse_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_discount"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:text=""
+                android:visibility="gone"
+                android:textColor="@color/txt_light_grey"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

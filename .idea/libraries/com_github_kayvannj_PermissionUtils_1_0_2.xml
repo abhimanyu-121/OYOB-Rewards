@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.kayvannj:PermissionUtils-1.0.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/PermissionUtils-1.0.2.aar/da753b209a28f8e3996b7cc19c829c86/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/PermissionUtils-1.0.2.aar/da753b209a28f8e3996b7cc19c829c86/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kayvannj/PermissionUtils/1.0.2/67c393454adef0fdcd6dc2c4d9fd8c4e3bfd9aab/PermissionUtils-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
